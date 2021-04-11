@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#jakeTitleCard {
+  color:#ff9100;
+  font-size: 120%;
+}
+
+#buttonLeft {
+  margin-right:5px
+}
+
+#buttonRight {
+  margin-left:5px
+}
+
+#aboutHeader {
+  color:rgb(255, 153, 0);
+  font-size: 125%;
+}
+
+#factsHeader {
+  color:hsl(56, 100%, 50%);
+  font-size: 125%;
+}
+
+#skillsHeader {
+  color:rgb(72, 255, 0);
+  font-size: 125%;
+}

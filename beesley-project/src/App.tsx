@@ -1,23 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState} from 'react';
 import './App.css';
 
+import AppRouter from './routes';
+
 function App() {
+
+  const [started, setStarted] = useState(false);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          So Far! <code>src/App.tsx</code> So Good!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <AppRouter />
       </header>
     </div>
   );
